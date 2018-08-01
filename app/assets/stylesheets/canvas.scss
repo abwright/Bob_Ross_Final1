@@ -1,0 +1,16 @@
+// Place all the styles related to the Canvas controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#canvasMain {
+    height: 400px;
+    width: 400px;
+}

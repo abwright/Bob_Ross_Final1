@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Bob Ross Canvas</title>
+  </head>
+  <body>
+    <div id="canvasMain">
+    <div id="canvasDiv"></div>
+    <!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+    <div class="canvas_background">
+    <style> 
+body {
+    background: url(https://media.boingboing.net/wp-content/uploads/2015/10/lovable.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+ 	<script type="text/javascript" >
+         console.log("it's working");
+         tester();
+         drawingApp.init();
+	</script>
+<button onclick=location=URL>New</button>
+<button>Save</button>
+<input type="hidden" name="canvascontent" id="canvascontent" />
+
+  </div>
+  <a href="http://localhost:3000/">
+  <div class="back-button">
+  <div class="arrow-wrap">
+    <span class="arrow-part-1"></span>
+    <span class="arrow-part-2"></span>
+    <span class="arrow-part-3"></span>
+  </div>
+  <script type ="text/javascript">
+  var backButton = document.querySelector('.back-button')
+
+function backAnim(){
+  if (backButton.classList.contains('back')){
+    backButton.classList.remove('back');
+  }
+  else{
+    backButton.classList.add('back');
+    setTimeout(backAnim, 1000);  
+  }
+}
+backButton.addEventListener('click', backAnim); 
+</script>
+</div>
+</a>
+  <iframe class='gfm-media-widget' image='1' coinfo='1' width='100%' height='100%' frameborder='0' id='help-the-future-of-our-site'></iframe><script src='//funds.gofundme.com/js/5.0/media-widget.js'></script>
+
+
+  </body>
+</html>
