@@ -2,7 +2,7 @@
 
 <h1>Paintings</h1>
 
-
+   
 
 
 <table>
@@ -18,7 +18,7 @@
     <% @paintings.each do |painting| %>
       <tr>
         <td><%= painting.name %></td>
-        <td><%= image_tag painting.image_url, size: 100 %></td>
+        <td><%= image_tag painting.image_url, height: 100, width: 200 %></td>
         <td><%= link_to 'Show', painting %></td>
         <td><%= link_to 'Edit', edit_painting_path(painting) %></td>
         <td><%= link_to 'Destroy', painting, method: :delete, data: { confirm: 'Are you sure?' } %></td>
